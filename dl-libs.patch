@@ -1,0 +1,11 @@
+--- hxtools-20100625/libexec/Makefile.am~	2010-06-25 15:14:06.000000000 +0300
++++ hxtools-20100625/libexec/Makefile.am	2010-10-31 22:39:51.365533456 +0200
+@@ -28,7 +28,7 @@
+ qplay_LDADD         = ${libHX_LIBS} -lm
+ printcaps_LDADD     = -lcap
+ proc_iomem_count_LDADD = ${libHX_LIBS}
+-testdl_LDADD        = ${libHX_LIBS}
++testdl_LDADD        = ${libHX_LIBS} -ldl
+ utmp_register_LDADD = ${libHX_LIBS}
+ wavdiff_LDADD       = ${libHX_LIBS}
+ vfontas_LDADD       = ${libHX_LIBS}
