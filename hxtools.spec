@@ -8,8 +8,11 @@ Source0:	http://jengelh.medozas.de/files/hxtools/%{name}-%{version}.tar.xz
 # Source0-md5:	cd505cb8b83f170fc8c5614bc363302a
 Patch0:		dl-libs.patch
 URL:		http://jengelh.medozas.de/projects/hxtools/
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	libHX-devel >= 3.4
 BuildRequires:	libcap-devel
+BuildRequires:	libtool
 BuildRequires:	pkg-config
 BuildRequires:	xorg-app-bdftopcf
 BuildRequires:	xz
